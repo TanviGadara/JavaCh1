@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        body{
+            background-color: rgb(49, 43, 43);
+        }
+        
+      #tanvi{
+        color: rgb(22, 192, 73);
+        position: relative;
+        animation: tanvi 7s infinite  ;
+        font-size: 60px;
+    }  
+    @keyframes tanvi{
+        0%{
+            left: 0px;
+            top: 0px;
+           
+        }
+        25%{
+            left: 1200px;
+            top: 0px;
+        }
+        50%{
+            left: 1200px;
+            top: 380px;
+            transform: rotate(90deg);
+        }
+        75%{
+            top: 380px;
+            left: 0px;
+            transform: rotateY(-180deg);
+        }
+        100%{
+            left: 0px;
+            top: 0px;
+            transform: rotateX(90deg);
+        }
+    }
+    </style>
+</head>
+<body>
+         
+    <i class="fa-solid fa-frog" id="tanvi"></i>
+    <p></p>
+</body>
+</html>
